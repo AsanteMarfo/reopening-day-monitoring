@@ -16,7 +16,7 @@ st.write("""
         This Dashboard helps you monitor live data submission from field officers and School Improvement Officers.
     """)
 # Replace with your actual embed URL
-powerbi_url = "https://app.powerbi.com/reportEmbed?reportId=fee59b6f-0e86-46ec-9fb7-c3d788880ae8&autoAuth=true&ctid=95f31300-13cc-44d5-93da-e2a04daacd7d"
+powerbi_url = "https://app.powerbi.com/reportEmbed?reportId=ad7250f2-9da9-4090-a07a-fbc873aca868&autoAuth=true&ctid=95f31300-13cc-44d5-93da-e2a04daacd7d"
 
 # Embed the dashboard
 components.iframe(src=powerbi_url, width=1000, height=700, scrolling=True)
