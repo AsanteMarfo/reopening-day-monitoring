@@ -2,7 +2,12 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.title("My Power BI Dashboard")
+st.set_page_config(
+    page_title="Re-Opening Day Monitoring",
+    layout="centered", # Can be "wide" or "centered"
+    initial_sidebar_state="expanded"
+)
+
 powerbi_url = "https://app.powerbi.com/reportEmbed?reportId=ad7250f2-9da9-4090-a07a-fbc873aca868&autoAuth=true&ctid=95f31300-13cc-44d5-93da-e2a04daacd7d"
 
 st.header("Monitoring Dashboard")
